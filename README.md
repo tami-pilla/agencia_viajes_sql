@@ -1,6 +1,6 @@
 Agencia de Viajes - Análisis SQL
 
-Este proyecto está orientado a mostrar el uso de SQL para el análisis de datos, segmentación y creación de vistas reutilizables.
+Este proyecto está orientado a mostrar el uso de SQL para el análisis y segmentación de datos y creación de vistas reutilizables.
 El objetivo es explorar los datos y generar visualizaciones que respondan a interrogantes de negocio.
 
 La temática es en torno a una agencia de viajes, sus destinos, tipos de paquetes, precios y duraciones.

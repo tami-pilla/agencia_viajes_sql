@@ -16,4 +16,4 @@ Funciones utilizadas:
 - CASE WHEN para clasificaciones o agrupamientos.
 - Funciones de agregación: COUNT, AVG, MIN, MAX, ROUND, NULLIF.
 - Vistas: consultas almacenadas reutilizables para conectar a dashboards.
-- LEFT JOIN entre tablas viajes y destinos.
+- JOIN entre tablas.

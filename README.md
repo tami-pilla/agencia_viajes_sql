@@ -1,19 +1,26 @@
-Análisis de Agencia de Viajes - Base de Datos SQLite
+**Análisis de Agencia de Viajes - Base de Datos SQLite**
 
-Este proyecto está orientado a mostrar el uso de SQL para el análisis y segmentación de datos y creación de vistas reutilizables.
+Este proyecto está orientado a mostrar el uso de **SQL para el análisis y segmentación de datos y creación de vistas reutilizables.**
 El objetivo es explorar los datos y generar visualizaciones que respondan a interrogantes de negocio.
 
-La temática es en torno a una agencia de viajes, sus destinos, tipos de paquetes, precios y duraciones.
+La temática es en torno a una **agencia de viajes**, sus destinos, tipos de paquetes, precios y duraciones.
 
 El archivo `agencia_viajes.sqlite` contiene todas las tablas necesarias para ejecutar las consultas del proyecto.
+<br>
 
 Se puede abrir con herramientas como:
 - [DBeaver](https://dbeaver.io/) (usado en este proyecto)
 
-Funciones utilizadas:
+**Diagrama ER:**
+
+<img width="600" height="300" alt="DER" src="https://github.com/user-attachments/assets/c465b5d6-1353-44e3-8838-1899fec8a14a" />
+<br>
+
+**Funciones utilizadas:**
 - CTEs: para estructurar consultas complejas de forma legible.
 - Window Functions: ROW_NUMBER, RANK,  NTILE, AVG OVER, SUM OVER.
 - CASE WHEN para clasificaciones o agrupamientos.
 - Funciones de agregación: COUNT, AVG, MIN, MAX, ROUND, NULLIF.
 - Vistas: consultas almacenadas reutilizables para conectar a dashboards.
 - JOIN entre tablas.
+
